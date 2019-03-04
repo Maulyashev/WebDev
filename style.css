@@ -1,0 +1,258 @@
+body
+{
+padding: 0px;
+width: 100%;
+
+}
+
+.mynavbar
+{
+  background-color:  rgb(9, 15, 20);
+  width: auto;
+  height: auto;
+}
+
+h1 .logo
+{
+	color: black;
+	font-family: 'Petit Formal Script', cursive !important;
+}
+
+
+
+.name{
+  color: white;
+  padding-top: 5em;
+}
+
+.section-adv {
+    padding: 2em;
+    height: auto;
+    background-position: 0 10em;
+    background-repeat: repeat;
+    width: auto;
+    text-align: center;
+    width: auto;
+    background-color: black;
+}
+
+.section-adv .container {
+    text-align: left;
+}
+
+.section-adv .container .row {
+    padding-top: 5px;
+}
+
+.section-adv .container .row .col-lg-12{
+  line-height: normal;
+  padding-bottom: 5px;
+}
+
+.img-adv{
+  width: 200px;
+  height: 150px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kozuka Mincho Pro', 'Kozuka Mincho Std', '小塚明朝 Pro R', '小塚明朝 Std R', 'Hiragino Mincho Pro', 'ヒラギノ明朝 Pro W3', 'ＭＳ Ｐ明朝', 'Times', 'Times New Roman', serif ;
+    color: black;
+
+}
+
+.img-1{
+    position: relative;
+    margin: 0;
+    width: 80%;
+    padding-bottom: 0;
+   
+}
+
+.row-2{
+  width: auto;
+  background-image: url(../equalizer.jpg);
+  padding-top: 7em; 
+  background-size: cover; 
+  background-attachment: fixed;
+}
+
+
+
+.row-3{ width: auto; }
+.row-3{
+  background-image: url(../image.png);
+  height: auto; 
+  width: auto;
+  padding-top: 7em;
+  padding-bottom: 7em;
+  color:#fff;
+  text-align:justify;
+}
+
+
+.second-row{
+  padding-top: 2em;
+}
+
+.row-4{
+  width: auto;
+  height: 25em; 
+  padding-top: 7em;
+  padding-bottom: 7em;
+  background:url(../music.png) no-repeat;
+  background-size: cover; 
+  background-attachment:fixed;
+/* Цвет текста */
+  color:#000
+  ;
+/* Выравниваем текста внутри splash по центру */
+  text-align: left;
+}
+
+.row-5{
+  padding-top: 15em;
+  width: auto;
+  height: 50em;
+}
+.row-6{
+  width: auto;
+  height: 50em;
+  padding-top: 10em;
+  background: url(../music.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card-block{
+  text-align: center;
+}
+
+.img-logo-row4{
+  width: 380px;
+  height: 80px;
+}
+
+
+
+.product {
+  background: #000 none repeat scroll 0 0;
+  border: 1px solid #000;
+  height: 450px;
+  width: 390px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  margin-bottom: 20px;
+}
+
+.product:hover {
+  box-shadow: 0 0 16px rgba(255,255,255, 0.9);
+}
+
+.album{
+  width: 390px;
+  height: 390px;
+}
+
+.product-price {
+  bottom: 2px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  color: yellow;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.bg-primary {
+ background-color: black !important;
+}
+
+.bg-circle
+{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 14px 4px;
+  color: #ececec;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.bg-circle-outline
+{
+  width: 50px;
+  height: 50px;
+  color:smoke;
+  padding: 8px 2px;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 50%;
+}
+
+
+.bg-circle a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #fff;
+}
+.bg-circle-outline a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #fff;
+}
+
+
+.col-xs-offset-12 {
+    margin-left: 100%;
+}
+.col-xs-offset-11 {
+    margin-left: 91.66666666666666%;
+}
+.col-xs-offset-10 {
+    margin-left: 83.33333333333334%;
+}
+.col-xs-offset-9 {
+    margin-left: 75%;
+}
+.col-xs-offset-8 {
+    margin-left: 66.66666666666666%;
+}
+.col-xs-offset-7 {
+    margin-left: 58.333333333333336%;
+}
+.col-xs-offset-6 {
+    margin-left: 50%;
+}
+.col-xs-offset-5 {
+    margin-left: 41.66666666666667%;
+}
+.col-xs-offset-4 {
+    margin-left: 33.33333333333333%;
+}
+.col-xs-offset-3 {
+    margin-left: 25%;
+}
+.col-xs-offset-2 {
+    margin-left: 16.666666666666664%;
+}
+.col-xs-offset-1 {
+    margin-left: 8.333333333333332%;
+}
+.col-xs-offset-0 {
+    margin-left: 0;
+}
+
+/* Ensure that all of the zero offsets are available - recent SASS version did not include .col-sm-offset-0 */
+@media (min-width: 768px) {
+    .col-sm-offset-0,
+    .col-md-offset-0,
+    .col-lg-offset-0 {
+        margin-left: 0;
+    }
+}
+
